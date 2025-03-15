@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(50, 50, 50, 0.9); /* Darker grey */
+    background-image: url('yuuy.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center everything vertically */
+    min-height: 100vh; /* Full height */
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(20, 20, 20, 0.7); /* Dark background with slight transparency */
+    color: white; /* Light text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Stronger shadow for better depth */
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Product Section */
+.product {
+    text-align: center;
+    padding: 15px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00; /* Highlighted price */
+}
+
+/* Reviews Section */
+.reviews {
+    text-align: center;
+    padding: 15px;
+}
+
+.review-box {
+    background-color: #333;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    color: #ddd;
+}
+
+/* FAQ Section */
+.faqs {
+    padding: 15px;
+}
+
+.faq-box {
+    background-color: #333;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #444;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
